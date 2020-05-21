@@ -98,10 +98,14 @@ section.center {
 
 header {
 	position: fixed;
-	top: 40px;
-	left: 40px;
+	top: 20px;
+	left: 20px;
 	z-index: 4;
-} 
+} @media only screen and (min-width: 650px) {
+	header {
+		top: 40px;
+		left: 40px; }
+  }
 
 
 /* Hero Section */
@@ -124,7 +128,7 @@ section.hero {
 /* Intro Section */
 
 section.intro {
-    padding: 40px 60px 0px 60px;
+    padding: 40px 0px 0px 0px;
    	margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -152,6 +156,9 @@ div.introWrapper {
   }
 }
 
+div.cropsContent {
+	margin: 0px 30px 0px 30px;
+}
 @media only screen and (min-width: 650px) {
   div.cropsContent {
     margin-top: 100px;
@@ -286,6 +293,7 @@ img.line {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	width: 100%;
 } @media only screen and (min-width: 900px) {
 	img.line { display: none; } }
 
@@ -352,7 +360,7 @@ button.accordion {
 
 @media only screen and (max-width: 900px) {
 	.accordion:after {
-	  content: '▶'; /* Unicode character for "plus" sign (+) */
+	  content: '►'; 
 	  font-size: 20px;
 	  margin-left: 15px;
 	  margin-top: 2px;
