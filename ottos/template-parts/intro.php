@@ -13,7 +13,7 @@
 			<div class="cropsWrapper">
 				<div class="cropsCopy">
 					<p> 
-						You don’t get a first class high-hopped CBD cider without a forward-thinking farmer like Otto. This apple-headed innovator and his squirrel, Squirrel, combined all the best parts of their valley (apples, hops, and hemp) to create an organic cider that tastes damn wonderful.
+						TESTING! You don’t get a first class high-hopped CBD cider without a forward-thinking farmer like Otto. This apple-headed innovator and his squirrel, Squirrel, combined all the best parts of their valley (apples, hops, and hemp) to create an organic cider that tastes damn wonderful.
 						<br><br>
 						Otto’s CBD Ciders come in Hopped Apple, Pineapple Passion, and Pear Rhubarb. Each flavor is a crisp concoction of organic Washington apples and hemp-derived CBD. Gluten free. THC free. Alcohol free.
 					</p>
