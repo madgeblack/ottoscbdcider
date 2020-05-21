@@ -1,3 +1,8 @@
+const iframe = document.querySelector("iframe");
+
+window.onload = function () {
+    iframe.style.display = "inline-block";
+}
 
 
 const mq = window.matchMedia( "(max-width: 900px)" );
