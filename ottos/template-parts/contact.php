@@ -21,7 +21,7 @@
 		<img class="mirthLogo center" src="
 		<?php echo get_template_directory_uri() . '/assets/mirth-logo.png' ?>">
 
-		<h4>We tend Otto’s farm alongside our creative partner, Sockeye.</h4>
+		<h4>We tend Otto’s farm alongside our creative partner, <a href="https://sockeye.com">Sockeye</a>.</h4>
 		<h5>© <?php echo date("Y") ?> Mirth Provisions. All rights reserved.</h5>
 
 	</div>

@@ -452,3 +452,8 @@ div.colophon h4 {
 	text-transform: uppercase;
 	letter-spacing: .5px;
 }
+
+div.colophon a {
+	color: #888c89;
+	text-decoration: none;
+}
