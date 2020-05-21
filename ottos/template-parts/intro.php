@@ -1,4 +1,3 @@
-
 <section class="intro">
 	<div class="introWrapper">
 		<div class="applehead">

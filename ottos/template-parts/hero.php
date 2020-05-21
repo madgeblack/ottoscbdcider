@@ -1,6 +1,3 @@
-
-
-
 <section class="hero">
 
 </section>

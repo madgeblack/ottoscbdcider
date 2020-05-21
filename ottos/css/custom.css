@@ -4,11 +4,6 @@ Description: Custom Theme for Otto's CBD Cider
 Author: Maddie Black
 Version: 1.0
 Tags:
-
-License:
-License URI:
-
-General comments (optional).
 */
 
 @font-face {
@@ -35,6 +30,7 @@ General comments (optional).
 	font-style: normal;
 }
 
+/* General Styles */
 
 body {
 	background-image: url("../assets/background-zig.jpg");
@@ -91,12 +87,24 @@ a {
 	color: #313A34;
 }
 
+section.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+/* Header */
+
 header {
 	position: fixed;
 	top: 40px;
 	left: 40px;
 	z-index: 4;
 } 
+
+
+/* Hero Section */
 
 section.hero {
 	background-image: url("../assets/hero-mobile.jpg");
@@ -112,6 +120,8 @@ section.hero {
     background-image: url("../assets/hero-desktop.jpg");
   }
 }
+
+/* Intro Section */
 
 section.intro {
     padding: 40px 60px 0px 60px;
@@ -148,9 +158,6 @@ div.introWrapper {
   }
 }
 
-
-
-
 div.applehead {
 	background-image: url("../assets/applehead.jpg");
 	background-repeat: no-repeat;
@@ -163,13 +170,11 @@ div.applehead {
   }
 }
 
-
 img.center {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 } 
-
 
 div.cropsWrapper {
 	margin-top: 30px;
@@ -187,7 +192,9 @@ div.cropsCopy {
 	line-height: 1.8;
 }
 
-section.tap {
+/* Parallax Image Section */
+/* Comment back in when image is sourced */
+/* section.tap {
 	height: 80vh;
 	background-image: url("../assets/tap.jpg");
 	background-repeat: no-repeat;
@@ -196,7 +203,9 @@ section.tap {
 	background-attachment: fixed;
 	border-top: 2px solid #313A34;
 	border-bottom: 2px solid #313A34;
-}
+} */
+
+/* Ingredients Section */
 
 section.flavors {
 	max-width: 650px;
@@ -205,8 +214,7 @@ section.flavors {
     padding: 40px 60px 40px 60px;
 } @media only screen and (min-width: 900px) {
   section.flavors {
-    max-width: none;
-  }
+    max-width: none; }
 }
 
 @media only screen and (min-width: 900px) {
@@ -224,7 +232,7 @@ div.flavor{
 
 div.flavor:last-child {
 	border-bottom: 0;
-}@media only screen and (min-width: 900px) {
+} @media only screen and (min-width: 900px) {
   div.flavor {
   	padding: 0 45px;
     max-width: 350px;
@@ -232,8 +240,7 @@ div.flavor:last-child {
     border-right: 2px solid #313A34;
   }
   div.flavor:last-child {
-  	border-right: 0px;
-  }
+  	border-right: 0px; }
 }
 
 p.ingredients {
@@ -367,7 +374,7 @@ button.accordion {
 	}
 }
 
-/* Map Styles */
+/* Locator */
 
 section.locator {
 	padding: 0 60px 100px 60px;
@@ -391,13 +398,7 @@ section.locator p {
 	font-style: normal;
 }
 
-
-section.center {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	text-align: center;
-}
+/* Contact Section */
 
 img.pennant {
     transform: rotate(-270deg);
@@ -408,8 +409,7 @@ img.pennant {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    margin-top: 150px
-  }
+    margin-top: 150px; }
 }
 
 img.ig-icon {
@@ -452,6 +452,3 @@ div.colophon h4 {
 	text-transform: uppercase;
 	letter-spacing: .5px;
 }
-
-
-

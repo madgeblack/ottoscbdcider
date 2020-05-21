@@ -1,5 +1,3 @@
-
-
 <section class="flavors">
 
 	<div class="flavorsDropdown">

@@ -124,8 +124,6 @@ function ottos_scripts() {
 
 	wp_enqueue_style( 'ottos-custom', get_template_directory_uri() . '/css/custom.css');
 
-	wp_enqueue_script( 'ottos-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
 	wp_enqueue_script( 'ottos-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'ottos-mobile-dropdown', get_template_directory_uri() . '/js/mobile-dropdown.js', array(), '20151215', true );
