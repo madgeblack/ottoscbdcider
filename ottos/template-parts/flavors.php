@@ -99,10 +99,15 @@
 	</div> <!-- end free -->
 
 	<div class="results">
-
 		<a href="https://drive.google.com/drive/folders/1pIfhhcwe-XDNVZWmp1_ETe769uaJAlP1?usp=sharing" target="_blank">
 			<button>CBD LAB RESULTS</button>
 		</a>
 	</div> <!-- end results -->
+
+	<div class="hemp">
+		<h2>CBD-FREE</h2>
+		<img src="<?php echo get_template_directory_uri() . '/assets/hemp.svg' ?>" alt="Hemp Cider">
+		<h2 class="condensed">AVAILABLE IN CALIFORNIA, NEVADA & ARIZONA</h2>
+	</div>
 
 </section>

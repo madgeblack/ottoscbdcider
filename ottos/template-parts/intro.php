@@ -7,7 +7,8 @@
 			<img class="center" srcset="
 				<?php echo get_template_directory_uri() . '/assets/crops-tops.png' ?> 2x,
 				<?php echo get_template_directory_uri() . '/assets/crops-tops.png' ?> 1x"
-				src="<?php echo get_template_directory_uri() . '/assets/crops-tops.png' ?>">
+				src="<?php echo get_template_directory_uri() . '/assets/crops-tops.png' ?>"
+				alt="His crops are the tops">
 
 			<div class="cropsWrapper">
 				<div class="cropsCopy">

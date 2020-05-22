@@ -318,6 +318,16 @@ div.results button:hover {
   	transform: translate(-2px, -3px);
 }
 
+div.hemp {
+	text-align: center;
+	margin: 35px 0;
+}
+
+div.hemp img {
+	max-width: 370px;
+	padding: 12px 0 9px 0;
+}
+
 /* Dropdowns */
 
 button.accordion {
