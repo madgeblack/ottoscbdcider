@@ -35,6 +35,7 @@ Tags:
 body {
 	background-image: url("../assets/background-zig.jpg");
 	background-repeat: repeat;
+	background-attachment: fixed;
 
 	font-family: 'HCo Knockout 31', Helvetica, sans-serif;
 	color: #313A34;
@@ -134,8 +135,6 @@ section.intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   	border-top: 2px solid #313A34;
-   	border-bottom: 2px solid #313A34;
 
 } @media only screen and (min-width: 650px) {
   section.intro {
@@ -339,7 +338,7 @@ button.accordion {
 	display: flex;
 	position: relative;
 	width: 100%;
-  	cursor: pointer;
+	cursor: pointer;
 
 	transition: 0.3s ease;
 	outline: none;
@@ -367,12 +366,16 @@ button.accordion {
 	height: 350px;
 }
 
+img.flavor-name {
+	max-height: 40px;
+	width: auto;
+}
 
 @media only screen and (max-width: 900px) {
 	.accordion:after {
 	  content: '►'; 
 	  font-size: 20px;
-	  margin-left: 15px;
+	  padding-left: 15px;
 	  margin-top: 2px;
 	}
 
