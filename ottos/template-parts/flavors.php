@@ -104,10 +104,12 @@
 		</a>
 	</div> <!-- end results -->
 
-	<div class="hemp">
-		<h2>CBD-FREE</h2>
-		<img src="<?php echo get_template_directory_uri() . '/assets/hemp.svg' ?>" alt="Hemp Cider">
-		<h2 class="condensed">AVAILABLE IN CALIFORNIA, NEVADA & ARIZONA</h2>
-	</div>
+</section>
+
+<section class="hemp">
+
+	<div class="hemp-headline">
+			<img src="<?php echo get_template_directory_uri() . '/assets/hemp.svg' ?>" alt="Hemp Cider">
+		</div>
 
 </section>

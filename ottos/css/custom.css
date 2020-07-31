@@ -148,7 +148,7 @@ section.intro {
 }
 
 div.introWrapper {
-	max-width: 380px;
+	max-width: 430px;
 } @media only screen and (min-width: 650px) {
   	div.introWrapper {
     margin-left: 50%;
@@ -200,16 +200,13 @@ div.cropsCopy {
 
 /* Parallax Image Section */
 /* Comment back in when image is sourced */
-/* section.tap {
-	height: 80vh;
-	background-image: url("../assets/tap.jpg");
+section.hemp {
+	height: 100vh;
+	background-image: url("../assets/hemp.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
-	border-top: 2px solid #313A34;
-	border-bottom: 2px solid #313A34;
-} */
+}
 
 /* Ingredients Section */
 
@@ -251,12 +248,12 @@ div.flavor:last-child {
 
 p.ingredients {
 	font-family: 'HCo Knockout 28', Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: 15px;
 	text-align: justify;
 } @media only screen and (min-width: 900px) {
 	p.ingredients {
-		font-size: 16px;}
+		font-size: 18px;}
 }
 
 p.nutrition {
@@ -317,14 +314,14 @@ div.results button:hover {
   	transform: translate(-2px, -3px);
 }
 
-div.hemp {
+div.hemp-headline {
 	text-align: center;
-	margin: 35px 0;
-}
+	padding: 100px 0px 35px 50%;
+} @media only screen and (max-width: 900px) {
+	div.hemp-headline { padding: 100px 0px 35px 0px; } }
 
-div.hemp img {
+div.hemp-headline img {
 	max-width: 370px;
-	padding: 12px 0 9px 0;
 }
 
 /* Dropdowns */
@@ -402,6 +399,7 @@ section.locator {
 	max-width: 1500px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 100px;
 } 
 
 
